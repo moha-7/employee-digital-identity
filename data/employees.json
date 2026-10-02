@@ -1,0 +1,76 @@
+{
+  "brand": {
+    "name": "Northstar Group",
+    "product_name": "Digital Identity",
+    "base_url": "https://identity.northstar.example",
+    "logo": "assets/brand/northstar-mark.svg"
+  },
+  "employees": {
+    "lina-haddad": {
+      "slug": "lina-haddad",
+      "name": "Lina Haddad",
+      "position": "People Operations Manager",
+      "department": "People & Culture",
+      "company": "Northstar Group",
+      "email": "lina.haddad@northstar.example",
+      "mobile": "+971 50 000 1001",
+      "landline": "+971 2 000 1001",
+      "photo": "assets/employees/lina-haddad.svg"
+    },
+    "kareem-mansour": {
+      "slug": "kareem-mansour",
+      "name": "Kareem Mansour",
+      "position": "Senior Software Engineer",
+      "department": "Digital Products",
+      "company": "Northstar Group",
+      "email": "kareem.mansour@northstar.example",
+      "mobile": "+971 50 000 1002",
+      "landline": "+971 2 000 1002",
+      "photo": "assets/employees/kareem-mansour.svg"
+    },
+    "maya-rahman": {
+      "slug": "maya-rahman",
+      "name": "Maya Rahman",
+      "position": "Product Designer",
+      "department": "Digital Products",
+      "company": "Northstar Group",
+      "email": "maya.rahman@northstar.example",
+      "mobile": "+971 50 000 1003",
+      "landline": "+971 2 000 1003",
+      "photo": "assets/employees/maya-rahman.svg"
+    },
+    "omar-nasser": {
+      "slug": "omar-nasser",
+      "name": "Omar Nasser",
+      "position": "Sales Manager",
+      "department": "Commercial",
+      "company": "Northstar Group",
+      "email": "omar.nasser@northstar.example",
+      "mobile": "+971 50 000 1004",
+      "landline": "+971 2 000 1004",
+      "photo": "assets/employees/omar-nasser.svg"
+    },
+    "sara-youssef": {
+      "slug": "sara-youssef",
+      "name": "Sara Youssef",
+      "position": "Marketing Specialist",
+      "department": "Growth & Brand",
+      "company": "Northstar Group",
+      "email": "sara.youssef@northstar.example",
+      "mobile": "+971 50 000 1005",
+      "landline": "+971 2 000 1005",
+      "photo": "assets/employees/sara-youssef.svg"
+    },
+    "daniel-cruz": {
+      "slug": "daniel-cruz",
+      "name": "Daniel Cruz",
+      "position": "Operations Coordinator",
+      "department": "Operations",
+      "company": "Northstar Group",
+      "email": "daniel.cruz@northstar.example",
+      "mobile": "+971 50 000 1006",
+      "landline": "+971 2 000 1006",
+      "photo": "assets/employees/daniel-cruz.svg"
+    }
+  }
+}
