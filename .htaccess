@@ -1,9 +1,7 @@
 Options -Indexes
 RewriteEngine On
 
-# Private application data must never be served directly.
 RewriteRule ^(?:data|backups)(?:/|$) - [F,L,NC]
-
 <FilesMatch "(^\.|\.(?:json|env|log|bak|sql)$)">
   Require all denied
 </FilesMatch>
@@ -13,5 +11,6 @@ RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule ^ - [L]
 
 RewriteRule ^vcard/([A-Za-z0-9_-]+)/?$ index.php?vcard=$1 [L,QSA]
+RewriteRule ^profile/([A-Za-z0-9_-]+)/?$ index.php?employee=$1 [L,QSA]
 RewriteRule ^([A-Za-z0-9_-]+)/?$ index.php?employee=$1 [L,QSA]
 RewriteRule ^$ index.php [L,QSA]

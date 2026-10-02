@@ -1,7 +1,7 @@
 {
   "brand": {
     "name": "Northstar Group",
-    "product_name": "Digital Identity",
+    "product_name": "Identity Operations",
     "base_url": "https://identity.northstar.example",
     "logo": "assets/brand/northstar-mark.svg"
   },
@@ -15,7 +15,9 @@
       "email": "lina.haddad@northstar.example",
       "mobile": "+971 50 000 1001",
       "landline": "+971 2 000 1001",
-      "photo": "assets/employees/lina-haddad.svg"
+      "extension": "201",
+      "photo": "assets/employees/lina-haddad.svg",
+      "status": "Ready"
     },
     "kareem-mansour": {
       "slug": "kareem-mansour",
@@ -26,7 +28,9 @@
       "email": "kareem.mansour@northstar.example",
       "mobile": "+971 50 000 1002",
       "landline": "+971 2 000 1002",
-      "photo": "assets/employees/kareem-mansour.svg"
+      "extension": "202",
+      "photo": "assets/employees/kareem-mansour.svg",
+      "status": "Ready"
     },
     "maya-rahman": {
       "slug": "maya-rahman",
@@ -37,7 +41,9 @@
       "email": "maya.rahman@northstar.example",
       "mobile": "+971 50 000 1003",
       "landline": "+971 2 000 1003",
-      "photo": "assets/employees/maya-rahman.svg"
+      "extension": "203",
+      "photo": "assets/employees/maya-rahman.svg",
+      "status": "Ready"
     },
     "omar-nasser": {
       "slug": "omar-nasser",
@@ -48,7 +54,9 @@
       "email": "omar.nasser@northstar.example",
       "mobile": "+971 50 000 1004",
       "landline": "+971 2 000 1004",
-      "photo": "assets/employees/omar-nasser.svg"
+      "extension": "204",
+      "photo": "assets/employees/omar-nasser.svg",
+      "status": "Ready"
     },
     "sara-youssef": {
       "slug": "sara-youssef",
@@ -59,7 +67,9 @@
       "email": "sara.youssef@northstar.example",
       "mobile": "+971 50 000 1005",
       "landline": "+971 2 000 1005",
-      "photo": "assets/employees/sara-youssef.svg"
+      "extension": "205",
+      "photo": "assets/employees/sara-youssef.svg",
+      "status": "Ready"
     },
     "daniel-cruz": {
       "slug": "daniel-cruz",
@@ -70,7 +80,87 @@
       "email": "daniel.cruz@northstar.example",
       "mobile": "+971 50 000 1006",
       "landline": "+971 2 000 1006",
-      "photo": "assets/employees/daniel-cruz.svg"
+      "extension": "206",
+      "photo": "assets/employees/daniel-cruz.svg",
+      "status": "Ready"
+    },
+    "nadia-khalil": {
+      "slug": "nadia-khalil",
+      "name": "Nadia Khalil",
+      "position": "Finance Business Partner",
+      "department": "Finance",
+      "company": "Northstar Group",
+      "email": "nadia.khalil@northstar.example",
+      "mobile": "+971 50 000 1007",
+      "landline": "+971 2 000 1007",
+      "extension": "207",
+      "photo": "assets/employees/nadia-khalil.svg",
+      "status": "Ready"
+    },
+    "yousef-hamdan": {
+      "slug": "yousef-hamdan",
+      "name": "Yousef Hamdan",
+      "position": "Project Engineer",
+      "department": "Engineering",
+      "company": "Northstar Group",
+      "email": "yousef.hamdan@northstar.example",
+      "mobile": "+971 50 000 1008",
+      "landline": "+971 2 000 1008",
+      "extension": "208",
+      "photo": "assets/employees/yousef-hamdan.svg",
+      "status": "Ready"
+    },
+    "reem-salem": {
+      "slug": "reem-salem",
+      "name": "Reem Salem",
+      "position": "Executive Assistant",
+      "department": "Executive Office",
+      "company": "Northstar Group",
+      "email": "reem.salem@northstar.example",
+      "mobile": "+971 50 000 1009",
+      "landline": "+971 2 000 1009",
+      "extension": "209",
+      "photo": "assets/employees/reem-salem.svg",
+      "status": "Ready"
+    },
+    "adam-foster": {
+      "slug": "adam-foster",
+      "name": "Adam Foster",
+      "position": "Service Operations Lead",
+      "department": "Service",
+      "company": "Northstar Group",
+      "email": "adam.foster@northstar.example",
+      "mobile": "+971 50 000 1010",
+      "landline": "+971 2 000 1010",
+      "extension": "210",
+      "photo": "assets/employees/adam-foster.svg",
+      "status": "Ready"
+    },
+    "farah-nasser": {
+      "slug": "farah-nasser",
+      "name": "Farah Nasser",
+      "position": "Talent Acquisition Partner",
+      "department": "People & Culture",
+      "company": "Northstar Group",
+      "email": "farah.nasser@northstar.example",
+      "mobile": "+971 50 000 1011",
+      "landline": "+971 2 000 1011",
+      "extension": "211",
+      "photo": "assets/employees/farah-nasser.svg",
+      "status": "Ready"
+    },
+    "samir-ibrahim": {
+      "slug": "samir-ibrahim",
+      "name": "Samir Ibrahim",
+      "position": "Key Account Manager",
+      "department": "Commercial",
+      "company": "Northstar Group",
+      "email": "samir.ibrahim@northstar.example",
+      "mobile": "+971 50 000 1012",
+      "landline": "+971 2 000 1012",
+      "extension": "212",
+      "photo": "assets/employees/samir-ibrahim.svg",
+      "status": "Ready"
     }
   }
 }

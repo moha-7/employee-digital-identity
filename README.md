@@ -1,65 +1,76 @@
-# Employee Digital Identity & Contact Automation Platform
+# Employee Digital Identity Operations Platform
 
-A lightweight PHP portfolio project for QR-ready employee identity pages and one-tap contact sharing.
+A sanitized portfolio edition of a real employee QR and contact-management workflow.
 
-Each employee receives a stable profile URL that can be encoded into a printed or digital QR code. The profile provides direct call and email actions plus downloadable vCard contact data.
+The product combines an internal **identity operations workspace** with public **employee digital contact cards**. Administrators can organize employee records, prepare QR assets, distribute profile links, and export standards-based vCards from one place.
 
-> This repository is a sanitized portfolio edition. All people, organizations, email addresses, phone numbers, and profile records in this demo are fictional.
+> All people, organizations, email addresses, phone numbers, profile images, and QR destinations in this repository are fictional demo data.
 
-## What it demonstrates
+## Product preview
 
-- Employee digital identity pages
-- QR-ready profile URLs
-- One-tap call and email actions
-- Standards-based vCard generation
-- Mobile-first employee directory
-- Data-driven PHP rendering from a structured JSON source
-- Apache rewrite routes for clean profile URLs
-- Direct-access protection for private application data
+### Identity Operations Studio
+
+![Employee identity operations studio](docs/screenshots/01-identity-operations-studio.png)
+
+### Employee Digital Profile
+
+![Employee digital contact profile](docs/screenshots/02-employee-digital-profile.png)
+
+## Product surfaces
+
+### Identity Operations Studio
+
+- Employee directory with search and department filtering
+- Identity readiness metrics
+- Employee profile management actions
+- QR preview and downloadable QR assets
+- vCard generation and download
+- Read-only public portfolio mode for destructive/admin actions
+
+### Employee Digital Profile
+
+- Stable QR-ready profile URL
+- Direct call and email actions
+- Office, mobile and extension details
+- One-tap standards-based vCard download
+- Responsive mobile-first digital contact card
 
 ## Demo routes
 
 ```text
-/                         Demo employee directory
-/lina-haddad              Employee profile
+/                         Identity Operations Studio
+/lina-haddad              Employee digital profile
+/profile/lina-haddad      Explicit profile route
 /vcard/lina-haddad        Download vCard
 ```
 
 ## Stack
 
 - PHP 8+
-- HTML5
-- CSS3
-- Apache / cPanel-compatible `.htaccess`
-- JSON-backed profile data
+- HTML5 / CSS3 / vanilla JavaScript
+- JSON-backed structured employee data
+- Apache / cPanel-compatible rewrite rules
+- SVG + PNG QR assets
 
 ## Local development
-
-From the project directory:
 
 ```bash
 php -S 127.0.0.1:8080 router.php
 ```
 
-Then open:
-
-```text
-http://127.0.0.1:8080
-```
-
-The local router mirrors the clean production routes and blocks direct access to `/data`.
+Open `http://127.0.0.1:8080`.
 
 ## Security and privacy
 
-The portfolio edition intentionally contains no production employee data or employee photographs.
+The public repository contains no production employee records or production organization assets. Direct access to the JSON data directory is blocked; PHP reads structured records server-side.
 
-The application also denies direct web access to the JSON data directory. PHP reads the file server-side while visitors interact only with the rendered profile routes.
+The portfolio environment is intentionally read-only for employee creation, editing and deletion while keeping the operational UI visible for technical evaluation.
 
 See [SECURITY.md](SECURITY.md).
 
-## Portfolio scope
+## Portfolio context
 
-The original business implementation was created for a real employee contact-sharing workflow. This public edition preserves the engineering concept while replacing the organization, identities, contact details, images, and URLs with fictional demo content.
+The original business implementation supported a real employee contact-sharing workflow. This edition preserves the product architecture and interaction model while replacing company-specific data and identities with fictional material.
 
 ## License
 
